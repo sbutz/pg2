@@ -94,17 +94,6 @@ public class Main
 
 	public static int set3Tops(BereichsUmsatz[] umsaetze)
 	{
-		/*
-		int max, min, count = 0;
-		for (int max = indexOfMaxUmsatz(umsaetze, count, umsaetze.length);
-			count < 3 || umsaetze[max].getUmsatz() == umsaetze[count-1].getUmsatz();
-			max = indexOfMaxUmsatz(umsaetze, count, umsaetze.length))
-		{
-			switchPosition(umsaetze, max, count);
-			count++;
-		}
-		*/
-
 		int max = indexOfMaxUmsatz(umsaetze, 0, umsaetze.length);
 		int count = 0;
 		do {

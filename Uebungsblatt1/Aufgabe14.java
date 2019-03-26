@@ -9,6 +9,12 @@ public class Aufgabe14
 			System.out.println("If -> true");
 
 		a = true;
+		for (;a; a = false)
+		{
+			System.out.println("For -> true");
+		}
+
+		a = true;
 		while (a)
 		{
 			System.out.println("While -> true");
