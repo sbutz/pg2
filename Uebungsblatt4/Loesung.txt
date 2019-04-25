@@ -1,0 +1,66 @@
+Aufgabe 1:
+	a) Nein, im Heap.
+	b) Ja.
+	c) Nein, nur Attribute.
+	d) Ja.
+	e) Nein.
+	f) Nein.
+	g) Nein.
+	h) Ja.
+	i) Ja.
+	j) Ja.
+	k) Ja.
+	l) Nein.
+	m) Nein.
+
+Aufgabe 2:
+	Innerhalb eines Block kann geprueft werden ob eine Variable zu beginn
+	initialisiert wurde. Innerhalb einer Klasse, kann eine Variable auch in
+	einer anderen Methode initialisert werden. Dies ist nicht pruefbar.
+
+Aufgabe 3:
+	Nein, da sonst das Standardverhalten von Wertetypen ignoriert wird.
+
+Aufgabe 4:
+	Es wird sichergestellt, dass Unterklassen das Verhalten der Oberklasse
+	folgen.
+
+Aufgabe 5:
+	Wenn es keine Referenz auf das Objekt gibt.
+
+Aufgabe 6:
+	Ja, durch die Benutzung von super statt this.
+
+Aufgabe 7:
+	Da es dann definierte Methoden gibt, die nicht implementiert sind.
+
+Aufgabe 8:
+	?
+
+Aufgabe 9:
+	a) Zu keiner. Es gibt einen Compileerror in Zeile 3. Klasse A hat keine
+	Methode g().
+	b)	B.f()
+		B.g()
+		B.g()
+		B.f()
+		C.g()
+		A.h()
+	c) this.f();
+	d) super.g();
+	e) super.h();
+	f) Geht nicht.
+
+Aufgabe 10:
+	A.f()
+
+Aufgabe 11:
+	Durch die Definition von Interfaces. Klassen koennen diese Implementieren um
+	miteinander zu kommunizieren ohne von einander Wissen zu muessen.
+	Vorteile:
+		- Vorgabe der Struktur ohne konkrete Implementierung
+			==> Framework
+
+Aufgabe 12:
+	DISPOSE_ON_CLOSE in JDialog definiert.
+	Die Klasse KundeBearbeitenDialog erbt von JDialog.
