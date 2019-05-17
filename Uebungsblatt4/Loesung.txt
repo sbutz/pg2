@@ -2,16 +2,16 @@ Aufgabe 1:
 	a) Nein, im Heap.
 	b) Ja.
 	c) Nein, nur Attribute.
-	d) Ja.
+	d) Ja. Private, Public, etc.
 	e) Nein.
-	f) Nein.
-	g) Nein.
+	f) Nein, nur Erweiterung moeglich.
+	g) Nein, nur falls static inner class.
 	h) Ja.
 	i) Ja.
 	j) Ja.
-	k) Ja.
-	l) Nein.
-	m) Nein.
+	k) Ja, nur static final.
+	l) Geht nicht.
+	m) Falsch.
 
 Aufgabe 2:
 	Innerhalb eines Block kann geprueft werden ob eine Variable zu beginn
@@ -22,6 +22,8 @@ Aufgabe 3:
 	Nein, da sonst das Standardverhalten von Wertetypen ignoriert wird.
 
 Aufgabe 4:
+	Unterklassen benoetigen eventuell Daten die in der Oberklasse initialisiert
+	werden.
 	Es wird sichergestellt, dass Unterklassen das Verhalten der Oberklasse
 	folgen.
 
@@ -29,27 +31,23 @@ Aufgabe 5:
 	Wenn es keine Referenz auf das Objekt gibt.
 
 Aufgabe 6:
-	Ja, durch die Benutzung von super statt this.
+	Ja, durch die Benutzung von super statt this. Unterklasse muss alles
+	koennen was Oberklasse kann.
 
 Aufgabe 7:
 	Da es dann definierte Methoden gibt, die nicht implementiert sind.
 
 Aufgabe 8:
-	?
+	Nein, Konstruktur gibt ein Objekt der eigenen Klasse zurueck.
 
 Aufgabe 9:
 	a) Zu keiner. Es gibt einen Compileerror in Zeile 3. Klasse A hat keine
 	Methode g().
-	b)	B.f()
-		B.g()
-		B.g()
-		B.f()
-		C.g()
-		A.h()
+	b) Compileerror in Zeile 3. Typ A hat keine Methode g.
 	c) this.f();
 	d) super.g();
-	e) super.h();
-	f) Geht nicht.
+	e) this.h();
+	f) Geht nicht. super.super geht nicht.
 
 Aufgabe 10:
 	A.f()
@@ -62,5 +60,5 @@ Aufgabe 11:
 			==> Framework
 
 Aufgabe 12:
-	DISPOSE_ON_CLOSE in JDialog definiert.
-	Die Klasse KundeBearbeitenDialog erbt von JDialog.
+	DISPOSE_ON_CLOSE in WindowConstans definiert und JFrame implementiert dies.
+	Die Klasse KundenVerwaltung erbt von JFrame.
