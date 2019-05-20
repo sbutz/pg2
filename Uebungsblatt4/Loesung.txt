@@ -5,21 +5,29 @@ Aufgabe 1:
 	d) Ja. Private, Public, etc.
 	e) Nein.
 	f) Nein, nur Erweiterung moeglich.
-	g) Nein, nur falls static inner class.
+	g) Nein, aber ungewoehnlich. Siehe Code Beispiel.
 	h) Ja.
 	i) Ja.
 	j) Ja.
 	k) Ja, nur static final.
-	l) Geht nicht.
-	m) Falsch.
+	l) Richtig.
+	m) Richtig, falls die RueckgabeTypen zueinander kompatibel sind. Dazu muss
+		es sich um einen abstrakten Typ handeln, wobei die ueberschreibende
+		Methode einen abgeleiteten Typ der ueberschriebnen Methode zurueckgibt.
+		Implizietes "Hoch-casten" funktioniert typsicher, also moeglich.
 
 Aufgabe 2:
 	Innerhalb eines Block kann geprueft werden ob eine Variable zu beginn
 	initialisiert wurde. Innerhalb einer Klasse, kann eine Variable auch in
 	einer anderen Methode initialisert werden. Dies ist nicht pruefbar.
+	Um Zugriffe auf nicht initialisierte Attribute zu verhindern, wird ein
+	Standardwert zugewiesen.
 
 Aufgabe 3:
-	Nein, da sonst das Standardverhalten von Wertetypen ignoriert wird.
+	Ja, allerdings erzeugen manipulierende Methoden stets neue String Objekte,
+	die zurueckgeben werden. Ueber eine Referenz kann also das String Objekt
+	nicht verandert werden. Dadurch kann man sagen, dass sich String Objekte
+	wie Wertetypen verhalten.
 
 Aufgabe 4:
 	Unterklassen benoetigen eventuell Daten die in der Oberklasse initialisiert
@@ -28,11 +36,11 @@ Aufgabe 4:
 	folgen.
 
 Aufgabe 5:
-	Wenn es keine Referenz auf das Objekt gibt.
+	Wenn es keine Referenz auf das Objekt direkt oder indirekt aus dem Stack
+	gibt.
 
 Aufgabe 6:
-	Ja, durch die Benutzung von super statt this. Unterklasse muss alles
-	koennen was Oberklasse kann.
+	Geht nicht super.super noetig.
 
 Aufgabe 7:
 	Da es dann definierte Methoden gibt, die nicht implementiert sind.
