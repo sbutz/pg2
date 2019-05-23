@@ -41,12 +41,18 @@ Aufgabe 5:
 
 Aufgabe 6:
 	Geht nicht super.super noetig.
+	Umgehung der Vererbungshierachie.
 
 Aufgabe 7:
 	Da es dann definierte Methoden gibt, die nicht implementiert sind.
 
 Aufgabe 8:
+	Polymorphie: Variale von Obertyp ruft bei Methodenaufruf Methode der
+	konkreten Unterklasse auf.
+
 	Nein, Konstruktur gibt ein Objekt der eigenen Klasse zurueck.
+	Polymorpher Konstruktur: Anlegen einer abgeleiteten Klasse, dies waere
+	unspezifiziert und nicht eindeutig bestimmbar.
 
 Aufgabe 9:
 	a) Zu keiner. Es gibt einen Compileerror in Zeile 3. Klasse A hat keine
@@ -55,7 +61,7 @@ Aufgabe 9:
 	c) this.f();
 	d) super.g();
 	e) this.h();
-	f) Geht nicht. super.super geht nicht.
+	f) Geht nicht. Verdeckt durch B.f. super.super geht nicht.
 
 Aufgabe 10:
 	A.f()
