@@ -1,6 +1,6 @@
 class MitarbeiterListe
 {
-	private static final int DEFAULT_SIZE = 1;
+	private static final int DEFAULT_SIZE = 10;
 
 	private Mitarbeiter[] mitarbeiter;
 

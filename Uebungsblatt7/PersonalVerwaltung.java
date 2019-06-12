@@ -5,7 +5,7 @@ class PersonalVerwaltung
 
 	PersonalVerwaltung()
 	{
-		this.mitarbeiter = new MitarbeiterListe();
+		this.mitarbeiter = new MitarbeiterListe(1);
 		this.abrechnungen = new AbrechnungsListe();
 	}
 
